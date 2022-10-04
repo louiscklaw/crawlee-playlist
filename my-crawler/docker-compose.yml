@@ -1,0 +1,8 @@
+services:
+  helloworld:
+    build: .
+    restart: always
+    command: npm i -d && npm run start
+    volumes:
+      - $PWD:/app
+    working_dir: /app

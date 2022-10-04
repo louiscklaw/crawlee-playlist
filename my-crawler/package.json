@@ -1,0 +1,17 @@
+{
+  "name": "my-crawler",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "This is an example of a Crawlee project.",
+  "dependencies": {
+    "crawlee": "^3.0.0",
+    "playwright": "*"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "docker_rebuild": "docker compose up -d && docker compose lgos -f",
+    "test": "echo \"Error: oops, the actor has no tests yet, sad!\" && exit 1"
+  },
+  "author": "It's not you it's me",
+  "license": "ISC"
+}
